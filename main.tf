@@ -39,7 +39,7 @@ resource "azurerm_storage_account" "storageaccount" {
   account_replication_type = "LRS"
 }
 
-resource "azurerm_storage_account" "storageaccount" {
+resource "azurerm_storage_account" "storageaccount2" {
   name                     = "stosebaka75"
   resource_group_name      = azurerm_resource_group.rg.name
   location                 = azurerm_resource_group.rg.location
